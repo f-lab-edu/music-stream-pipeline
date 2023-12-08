@@ -167,7 +167,7 @@ everything.
 
 Example for about 2.5 M events (1000 users for a year, growing at 1% annually):
 
-    $ ./eventsim.sh -c "examples/site.json" --from 365 --nusers 1000 --growth-rate 0.01 data/fake.json
+    $ ./eventsim.sh -c "examples/example-config.json" --from 365 --nusers 1000 --growth-rate 0.01 data/fake.json
     Initial number of users: 1000, Final number of users: 1010
     Starting to generate events.
     Damping=0.0625, Weekend-Damping=0.5
@@ -175,7 +175,7 @@ Example for about 2.5 M events (1000 users for a year, growing at 1% annually):
 
 Example for more events (30,000 users for a year, growing at 30% annually):
 
-    $ ./eventsim.sh -c "examples/site.json" --from 365 --nusers 30000 --growth-rate 0.30 data/fake.json
+    $ ./eventsim.sh -c "examples/example-config.json" --from 365 --nusers 30000 --growth-rate 0.30 data/fake.json
 
 Building huge data sets in parallel
 ===================================
